@@ -17,6 +17,11 @@ import PreviewAvatar from "./Component/UseEffect/PreviewAvatar";
 import FakeChatApp from "./Component/UseEffect/FakeChatApp";
 import UseRef from "./Component/UseRef/UseRef.tsx";
 import JSX from "./Component/JSX/JSX.tsx";
+import Memo from "./Component/Memo/mainMemo";
+import MainUseMemo from "./Component/UseMemo/MainUseMemo";
+import MainUseReducer from "./Component/UseReducer/MainUseReducer";
+import EasyReducer from "./Component/UseReducer/UseReducer";
+import UseReducerNormal from "./Component/UseReducer/UseReducerNormal";
 
 //? Fake Comments
 
@@ -52,6 +57,11 @@ root.render(
       <Route path="useref" element={<UseRef />} />
       {/* JSX */}
       <Route path="jsx" element={<JSX />} />
+      <Route path="memo" element={<Memo />} />
+      <Route path="use-memo" element={<MainUseMemo />} />
+      <Route path="use-reducer" element={<MainUseReducer />} />
+      <Route path="use-reducer/easy" element={<EasyReducer />} />
+      <Route path="use-reducer/normal" element={<UseReducerNormal />} />
     </Routes>
   </BrowserRouter>
 );

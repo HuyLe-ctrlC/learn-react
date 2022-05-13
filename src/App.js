@@ -31,6 +31,18 @@ function App() {
             <Link className="color-decor btn btn-primary ms-2" to="/jsx">
               JSX
             </Link>
+            <Link className="color-decor btn btn-primary ms-2" to="/memo">
+              Memo & useCallback
+            </Link>
+            <Link className="color-decor btn btn-primary ms-2" to="/use-memo">
+              MainUseMemo
+            </Link>
+            <Link
+              className="color-decor btn btn-primary ms-2"
+              to="/use-reducer"
+            >
+              UseReducer
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
